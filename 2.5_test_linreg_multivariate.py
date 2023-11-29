@@ -61,5 +61,3 @@ if __name__ == "__main__":
 
     closed_form_solution_multivariate = inv(X_multivariate.T @ X_multivariate) @ X_multivariate.T @ y_multivariate
     print("Closed-form solution (multivariate):", closed_form_solution_multivariate)
-
-    # ... (continue with the rest of your code)
